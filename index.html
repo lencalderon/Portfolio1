@@ -8,9 +8,16 @@
   align-items: center;
   justify-content: center;
 }
-
+<head>
 <div class="loadingScreen">
 <!--WIP Loading screen-->
       <h1>We are suffering!</h1>
     </div>
+  <script>
+    var loadingScreen = document.querySelector(".loadingScreen");
+window.addEventListener('load', function() {
+  loadingScreen.style.display = 'none';
+})
+  </script>
+</head>
 <h1>Hello World!</h1>
